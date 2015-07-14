@@ -13,6 +13,11 @@
 		2C3BD1FC1B5498EC00498F58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3BD1FB1B5498EC00498F58 /* Images.xcassets */; };
 		2C3BD1FF1B5498EC00498F58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3BD1FD1B5498EC00498F58 /* LaunchScreen.xib */; };
 		2C3BD20B1B5498EC00498F58 /* MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BD20A1B5498EC00498F58 /* MemoryGameTests.swift */; };
+		2C69438C1B55A64E00107251 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69438B1B55A64E00107251 /* MemoryViewController.swift */; };
+		2C69438E1B55A99B00107251 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69438D1B55A99B00107251 /* UIColor.swift */; };
+		2C6943901B55AA2000107251 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69438F1B55AA2000107251 /* CardCell.swift */; };
+		2C6943921B55AA4F00107251 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6943911B55AA4F00107251 /* Deck.swift */; };
+		2C6943941B55AAE200107251 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6943931B55AAE200107251 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		2C3BD2041B5498EC00498F58 /* MemoryGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3BD2091B5498EC00498F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C3BD20A1B5498EC00498F58 /* MemoryGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameTests.swift; sourceTree = "<group>"; };
+		2C69438B1B55A64E00107251 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		2C69438D1B55A99B00107251 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2C69438F1B55AA2000107251 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		2C6943911B55AA4F00107251 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		2C6943931B55AAE200107251 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +88,16 @@
 			isa = PBXGroup;
 			children = (
 				2C3BD1F41B5498EC00498F58 /* AppDelegate.swift */,
+				2C69438D1B55A99B00107251 /* UIColor.swift */,
 				2C3BD1F61B5498EC00498F58 /* ViewController.swift */,
+				2C69438F1B55AA2000107251 /* CardCell.swift */,
+				2C69438B1B55A64E00107251 /* MemoryViewController.swift */,
+				2C6943911B55AA4F00107251 /* Deck.swift */,
 				2C3BD1F81B5498EC00498F58 /* Main.storyboard */,
 				2C3BD1FB1B5498EC00498F58 /* Images.xcassets */,
 				2C3BD1FD1B5498EC00498F58 /* LaunchScreen.xib */,
 				2C3BD1F21B5498EC00498F58 /* Supporting Files */,
+				2C6943931B55AAE200107251 /* UIViewController.swift */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -212,6 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6943941B55AAE200107251 /* UIViewController.swift in Sources */,
+				2C6943921B55AA4F00107251 /* Deck.swift in Sources */,
+				2C6943901B55AA2000107251 /* CardCell.swift in Sources */,
+				2C69438C1B55A64E00107251 /* MemoryViewController.swift in Sources */,
+				2C69438E1B55A99B00107251 /* UIColor.swift in Sources */,
 				2C3BD1F71B5498EC00498F58 /* ViewController.swift in Sources */,
 				2C3BD1F51B5498EC00498F58 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +429,7 @@
 				2C3BD2101B5498EC00498F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C3BD2111B5498EC00498F58 /* Build configuration list for PBXNativeTarget "MemoryGameTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				2C3BD2131B5498EC00498F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
